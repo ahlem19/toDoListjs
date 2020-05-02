@@ -1,0 +1,71 @@
+body{
+    background-color: pink;
+    text-align: center;
+    font-family: "ferdana",serif;
+}
+
+.intro{
+    margin: 50px 0px;
+   
+}
+
+.intro h1{
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+ul {
+	border: 2px solid red;
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style-type:circle;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid yellow;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 50px;
+	border: 4px solid red;
+}
+
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+.yes{
+	background-color: #ffffff;
+}
+.delete{
+	display: none;
+}
